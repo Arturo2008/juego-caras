@@ -5,7 +5,7 @@ input.onButtonPressed(Button.A, function () {
             puntos_a += 1
             if (puntos_a == 10) {
                 basic.showString("A: has ganado")
-                music.playMelody("C D C F C A C C5 ", 500)
+                music.playMelody("C D C F C A C C5 ", 1000)
             }
         } else if (num_icono == 0) {
             basic.showString("A: has perdido")
